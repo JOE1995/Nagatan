@@ -258,7 +258,38 @@ class SingleViewController: UIViewController {
         
         //Insideなら
         if isLabelInside! {
+ 
+            // タッチイベントを取得
+            let touchEvent = touches.first!
             
+            // ドラッグ前の座標, Swift 1.2 から
+            let preDx = touchEvent.previousLocationInView(self.view).x
+            let preDy = touchEvent.previousLocationInView(self.view).y
+            
+            // ドラッグ後の座標
+            let newDx = touchEvent.locationInView(self.view).x
+            let newDy = touchEvent.locationInView(self.view).y
+            
+            // ドラッグしたx座標の移動距離
+            let dx = newDx - preDx
+            print("x:\(dx)")
+            
+            // ドラッグしたy座標の移動距離
+            let dy = newDy - preDy
+            print("y:\(dy)")
+            
+            // 画像のフレーム
+            var viewFrame: CGRect = object.frame
+            
+            // 移動分を反映させる
+            viewFrame.origin.x += dx
+            viewFrame.origin.y += dy
+            
+            object.frame = viewFrame
+            
+            self.view.addSubview(object)
+            
+/*
             // タッチイベントを取得.
             let aTouch:UITouch = touches.first as UITouch!
             
@@ -283,6 +314,7 @@ class SingleViewController: UIViewController {
             object.frame = viewFrame
             
             self.view.addSubview(object)
+*/
             putShadowOnView(object, shadowColor: UIColor(white: 1.0, alpha: 0.7), radius: 5.0, offset: CGSizeMake(4.0, 4.0), opacity: 1.0)
         }
         
