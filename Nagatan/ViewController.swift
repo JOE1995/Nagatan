@@ -9,17 +9,41 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let height:CGFloat = UIScreen.mainScreen().bounds.size.height
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        print(height)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "toView2"{
+            let View2 = segue.destinationViewController as! ViewController2
+            
+            
+            //使用しているiPhoneのサイズ
+            View2.height = self.height
+        }
+        
+        if segue.identifier == "toSingle"{
+            let View = segue.destinationViewController as! SingleViewController
+            
+            //使用しているiPhoneのサイズ
+            View.height = self.height
+        }
+        
+        
+    }
+    
+    
+    
 }
 
