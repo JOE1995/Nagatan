@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C017088F1BFC7F520009418D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017088E1BFC7F520009418D /* AppDelegate.swift */; };
+		C01708911BFC7F520009418D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01708901BFC7F520009418D /* ViewController.swift */; };
+		C01708941BFC7F520009418D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01708921BFC7F520009418D /* Main.storyboard */; };
+		C01708961BFC7F520009418D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01708951BFC7F520009418D /* Assets.xcassets */; };
+		C01708991BFC7F520009418D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01708971BFC7F520009418D /* LaunchScreen.storyboard */; };
+		C01708A41BFC7F520009418D /* NagatanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01708A31BFC7F520009418D /* NagatanTests.swift */; };
+		C01708AF1BFC7F520009418D /* NagatanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01708AE1BFC7F520009418D /* NagatanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01708A01BFC7F520009418D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01708831BFC7F520009418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C017088A1BFC7F520009418D;
+			remoteInfo = Nagatan;
+		};
+		C01708AB1BFC7F520009418D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01708831BFC7F520009418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C017088A1BFC7F520009418D;
+			remoteInfo = Nagatan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C017088B1BFC7F520009418D /* Nagatan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nagatan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C017088E1BFC7F520009418D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01708901BFC7F520009418D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C01708931BFC7F520009418D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01708951BFC7F520009418D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01708981BFC7F520009418D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C017089A1BFC7F520009418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C017089F1BFC7F520009418D /* NagatanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NagatanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01708A31BFC7F520009418D /* NagatanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagatanTests.swift; sourceTree = "<group>"; };
+		C01708A51BFC7F520009418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01708AA1BFC7F520009418D /* NagatanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NagatanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01708AE1BFC7F520009418D /* NagatanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagatanUITests.swift; sourceTree = "<group>"; };
+		C01708B01BFC7F520009418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01708881BFC7F520009418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C017089C1BFC7F520009418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01708A71BFC7F520009418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01708821BFC7F520009418D = {
+			isa = PBXGroup;
+			children = (
+				C017088D1BFC7F520009418D /* Nagatan */,
+				C01708A21BFC7F520009418D /* NagatanTests */,
+				C01708AD1BFC7F520009418D /* NagatanUITests */,
+				C017088C1BFC7F520009418D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C017088C1BFC7F520009418D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C017088B1BFC7F520009418D /* Nagatan.app */,
+				C017089F1BFC7F520009418D /* NagatanTests.xctest */,
+				C01708AA1BFC7F520009418D /* NagatanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C017088D1BFC7F520009418D /* Nagatan */ = {
+			isa = PBXGroup;
+			children = (
+				C017088E1BFC7F520009418D /* AppDelegate.swift */,
+				C01708901BFC7F520009418D /* ViewController.swift */,
+				C01708921BFC7F520009418D /* Main.storyboard */,
+				C01708951BFC7F520009418D /* Assets.xcassets */,
+				C01708971BFC7F520009418D /* LaunchScreen.storyboard */,
+				C017089A1BFC7F520009418D /* Info.plist */,
+			);
+			path = Nagatan;
+			sourceTree = "<group>";
+		};
+		C01708A21BFC7F520009418D /* NagatanTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01708A31BFC7F520009418D /* NagatanTests.swift */,
+				C01708A51BFC7F520009418D /* Info.plist */,
+			);
+			path = NagatanTests;
+			sourceTree = "<group>";
+		};
+		C01708AD1BFC7F520009418D /* NagatanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C01708AE1BFC7F520009418D /* NagatanUITests.swift */,
+				C01708B01BFC7F520009418D /* Info.plist */,
+			);
+			path = NagatanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C017088A1BFC7F520009418D /* Nagatan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01708B31BFC7F520009418D /* Build configuration list for PBXNativeTarget "Nagatan" */;
+			buildPhases = (
+				C01708871BFC7F520009418D /* Sources */,
+				C01708881BFC7F520009418D /* Frameworks */,
+				C01708891BFC7F520009418D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nagatan;
+			productName = Nagatan;
+			productReference = C017088B1BFC7F520009418D /* Nagatan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C017089E1BFC7F520009418D /* NagatanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01708B61BFC7F520009418D /* Build configuration list for PBXNativeTarget "NagatanTests" */;
+			buildPhases = (
+				C017089B1BFC7F520009418D /* Sources */,
+				C017089C1BFC7F520009418D /* Frameworks */,
+				C017089D1BFC7F520009418D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01708A11BFC7F520009418D /* PBXTargetDependency */,
+			);
+			name = NagatanTests;
+			productName = NagatanTests;
+			productReference = C017089F1BFC7F520009418D /* NagatanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C01708A91BFC7F520009418D /* NagatanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01708B91BFC7F520009418D /* Build configuration list for PBXNativeTarget "NagatanUITests" */;
+			buildPhases = (
+				C01708A61BFC7F520009418D /* Sources */,
+				C01708A71BFC7F520009418D /* Frameworks */,
+				C01708A81BFC7F520009418D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01708AC1BFC7F520009418D /* PBXTargetDependency */,
+			);
+			name = NagatanUITests;
+			productName = NagatanUITests;
+			productReference = C01708AA1BFC7F520009418D /* NagatanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01708831BFC7F520009418D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "矢吹祐真";
+				TargetAttributes = {
+					C017088A1BFC7F520009418D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C017089E1BFC7F520009418D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C017088A1BFC7F520009418D;
+					};
+					C01708A91BFC7F520009418D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C017088A1BFC7F520009418D;
+					};
+				};
+			};
+			buildConfigurationList = C01708861BFC7F520009418D /* Build configuration list for PBXProject "Nagatan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01708821BFC7F520009418D;
+			productRefGroup = C017088C1BFC7F520009418D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C017088A1BFC7F520009418D /* Nagatan */,
+				C017089E1BFC7F520009418D /* NagatanTests */,
+				C01708A91BFC7F520009418D /* NagatanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01708891BFC7F520009418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01708991BFC7F520009418D /* LaunchScreen.storyboard in Resources */,
+				C01708961BFC7F520009418D /* Assets.xcassets in Resources */,
+				C01708941BFC7F520009418D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C017089D1BFC7F520009418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01708A81BFC7F520009418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01708871BFC7F520009418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01708911BFC7F520009418D /* ViewController.swift in Sources */,
+				C017088F1BFC7F520009418D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C017089B1BFC7F520009418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01708A41BFC7F520009418D /* NagatanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01708A61BFC7F520009418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01708AF1BFC7F520009418D /* NagatanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01708A11BFC7F520009418D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C017088A1BFC7F520009418D /* Nagatan */;
+			targetProxy = C01708A01BFC7F520009418D /* PBXContainerItemProxy */;
+		};
+		C01708AC1BFC7F520009418D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C017088A1BFC7F520009418D /* Nagatan */;
+			targetProxy = C01708AB1BFC7F520009418D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01708921BFC7F520009418D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01708931BFC7F520009418D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01708971BFC7F520009418D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01708981BFC7F520009418D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01708B11BFC7F520009418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01708B21BFC7F520009418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01708B41BFC7F520009418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nagatan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuma.Nagatan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C01708B51BFC7F520009418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nagatan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuma.Nagatan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C01708B71BFC7F520009418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NagatanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuma.NagatanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nagatan.app/Nagatan";
+			};
+			name = Debug;
+		};
+		C01708B81BFC7F520009418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NagatanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuma.NagatanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nagatan.app/Nagatan";
+			};
+			name = Release;
+		};
+		C01708BA1BFC7F520009418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NagatanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuma.NagatanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nagatan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C01708BB1BFC7F520009418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NagatanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuma.NagatanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nagatan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01708861BFC7F520009418D /* Build configuration list for PBXProject "Nagatan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01708B11BFC7F520009418D /* Debug */,
+				C01708B21BFC7F520009418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01708B31BFC7F520009418D /* Build configuration list for PBXNativeTarget "Nagatan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01708B41BFC7F520009418D /* Debug */,
+				C01708B51BFC7F520009418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01708B61BFC7F520009418D /* Build configuration list for PBXNativeTarget "NagatanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01708B71BFC7F520009418D /* Debug */,
+				C01708B81BFC7F520009418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01708B91BFC7F520009418D /* Build configuration list for PBXNativeTarget "NagatanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01708BA1BFC7F520009418D /* Debug */,
+				C01708BB1BFC7F520009418D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01708831BFC7F520009418D /* Project object */;
+}
